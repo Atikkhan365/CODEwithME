@@ -18,7 +18,6 @@ body {
     object-fit: cover;
     background:  url(./img/shiny-night-city.jpg);
     background-size: cover;
-    /* background-image: linear-gradient(to right,rgba(29, 162, 167, 0.233),rgb(29, 162, 167, 0.233),transparent); */
 }
 
 .nav {
@@ -151,4 +150,10 @@ body {
 .paras{
     color: white;
     padding: 7px 12px;
+}
+
+.section2{
+    width: 100%;
+    height: 600px;
+    /* background-image: linear-gradient(to right ,rgb(0, 26, 255),aqua); */
 }
