@@ -1,57 +1,74 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-html, body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-.main{
+
+.main {
     height: 100%;
     width: 100%;
     background-color: blue;
     object-fit: cover;
-    background:rgba(0, 0, 0, 0.6) url(./img/shiny-night-city.jpg);
-    background-size: cover; 
+    background:  url(./img/shiny-night-city.jpg);
+    background-size: cover;
+    /* background-image: linear-gradient(to right,rgba(29, 162, 167, 0.233),rgb(29, 162, 167, 0.233),transparent); */
 }
 
-.nav{
+.nav {
     height: 100px;
     width: 100%;
- 
     font: sans-serif;
     display: flex;
-align-items: center;
+    align-items: center;
     justify-content: space-between;
     padding: 0 50px;
 
 
 }
-.nav i{
+
+.logo{
+    width: 40%;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.nav i {
     font-size: 1.5vw;
     font-weight: 800;
     color: wheat;
     display: none;
 }
-.nav H6{
+
+.nav H6 {
     font-size: 2vw;
     color: wheat;
 }
-.form{
+
+.form {
     display: flex;
     align-items: center;
 }
 
-.form input{
+.form input {
     font-size: 1.5rem;
-    border-radius:8px;
+    border-radius: 8px;
     border: none;
 }
-.form  button{
+
+.form button {
     font-size: 1vw;
-    border-radius:8px;
+    border-radius: 8px;
     margin: 1vw;
     border-radius: 20px;
     border: none;
@@ -60,40 +77,78 @@ align-items: center;
     font-weight: 500;
 }
 
-.nav-part2 ul{
+.nav-part2 ul {
     display: flex;
     list-style: none;
-    gap: 6vw;
+    gap: 4vw;
     font-size: 1.2vw;
     font-weight: 500;
     color: wheat;
+    padding-right: 150px;
 }
-.nav-part2 ul :hover{
+
+.nav-part2 ul :hover {
     color: rgb(33, 15, 131);
-    transition:1s;
+    transition: 1s;
 }
-@media (max-width:900px){
-    .nav{
+
+@media (max-width:900px) {
+    .nav {
         height: 60px;
     }
-    .nav h6{
+
+    .nav h6 {
         font-size: 6vw;
-        
+
     }
-    .nav-part2 ul{
+
+    .nav-part2 ul {
         font-size: 3vw;
         display: none;
 
     }
-    .nav i{
+
+    .nav i {
         display: block;
         font-size: 6vw;
         color: wheat;
 
     }
-    .form input,button{
+
+    .form input,
+    button {
         display: none;
-    
+
     }
-  
+
+}
+
+.section1{
+    display: flex;
+    padding: 100px 200px;
+    background: #0000008c;
+    height: 85.05%;
+}
+
+.rightbox{
+    width: 50%;
+    margin: auto;
+}
+
+.leftbox{
+    width: 50%;
+    margin: auto;
+    background-color: #00000024;
+    border: 6px  #00000024;
+    border-radius: 20px;
+}
+
+.rightbox video{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.paras{
+    color: white;
+    padding: 7px 12px;
 }
