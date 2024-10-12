@@ -21,14 +21,18 @@ body {
 }
 
 .nav {
-    height: 100px;
+    height: 70px;
     width: 100%;
     font: sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: url(./img/shiny-night-city.jpg);
+    background: #0000008c;
     padding: 0 50px;
     position: fixed;
+    z-index: 1000;
+    background-size: cover;
 
 
 }
@@ -38,7 +42,7 @@ body {
 }
 
 .logo img {
-    width: 33%;
+    width: 25%;
     border: 3px solid white;
     border-radius: 50px;
 }
@@ -154,23 +158,63 @@ body {
 }
 
 .main2 {
+    background-image: url(img/build2.jpg);
     align-items: center;
     position: relative;
-}
-
-.main2 video {
-    height: 100%;
+    background-size: cover;
     width: 100%;
+    height: 100vh;
 }
 
 .main2 .container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+    display: flex;
+    padding: 100px 168px;
+    background: #0000008c;
+    height: 100%;
 }
 
-.container {
-    margin-top: -404px;
-    height: 400px;
-    border: 2px solid black;
+.container .container-sm1{
+    width: 50%;
+    margin: auto;
+}
+.container-sm1 .about{
+    color: #5e6ed8;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.container .italic{
+    font-size: 21px;
+    font-style: italic;
+    color: white;
+    padding: 10px 0;
+}
+
+.para,.para2{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 0;
+}
+
+.btn1{
+    margin: 25px 123px;
+    padding: 10px;
+    font-size: 14px;
+    width: 180px;
+    border: 3px soli white;
+    border: 3px solid white;
+    border-radius: 32px;
+    background-color: #5e6ed8;
+}
+
+.container .container-sm2{
+    width: 50%;
+    margin: 0 0 0 44px;
+}
+
+.container-sm2 img{
+    border: 4px solid white;
+    width: 524px;
+    height: 500px;
 }
