@@ -173,31 +173,33 @@ body {
     height: 100%;
 }
 
-.container .container-sm1{
+.container .container-sm1 {
     width: 50%;
     margin: auto;
 }
-.container-sm1 .about{
+
+.container-sm1 .about {
     color: #5e6ed8;
     font-family: sans-serif;
     font-weight: bolder;
 }
 
-.container .italic{
+.container .italic {
     font-size: 21px;
     font-style: italic;
     color: white;
     padding: 10px 0;
 }
 
-.para,.para2{
+.para,
+.para2 {
     font-size: 15px;
     font-weight: 600;
     color: white;
     padding: 10px 0;
 }
 
-.btn1{
+.btn1 {
     margin: 25px 123px;
     padding: 10px;
     font-size: 14px;
@@ -208,13 +210,98 @@ body {
     background-color: #5e6ed8;
 }
 
-.container .container-sm2{
+.container .container-sm2 {
     width: 50%;
     margin: 0 0 0 44px;
 }
 
-.container-sm2 img{
+.container-sm2 img {
     border: 4px solid white;
     width: 524px;
     height: 500px;
+}
+
+.main3 {
+    background-image: url(img/contact.jpeg);
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main3 .container {
+    display: flex;
+    padding: 100px 168px;
+    background: #0a082fb0;
+    height: 100%;
+    width: 100%;
+}
+
+.container1 {
+    width: 50%;
+    margin: auto;
+}
+
+.container1 .saad {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+.container1 .farm {
+    display: inline-grid;
+    padding: 20px 99px;
+    margin: 8px -57px;
+}
+
+.farm .name {
+    width: 433px;
+    padding: 12px;
+    font-size: 24px;
+    text-align: justify;
+    color: white;
+    border: 2px solid white;
+    border-radius: 35px;
+    border-color: #00ffff30;
+    background-color: #00ffff30;
+}
+
+.farm .number {
+    width: 433px;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 24px;
+    color: white;
+    text-align: justify;
+    border: 2px solid white;
+    border-radius: 35px;
+    border-color: #00ffff30;
+    background-color: #00ffff30;
+}
+
+.farm .email {
+    width: 433px;
+    padding: 12px;
+    margin-top: 12px;
+    color: white;
+    font-size: 24px;
+    text-align: justify;
+    border: 2px solid white;
+    border-radius: 35px;
+    border-color: #00ffff30;
+    background-color: #00ffff30;
+}
+
+.farm .btn2{
+    width: 250px;
+    font-size: 23px;
+    border: 2px solid white;
+    border-radius: 35px;
+    margin: 0px 97px;
+    padding: 9px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: aqua;
+    margin-top: 42px;
 }
