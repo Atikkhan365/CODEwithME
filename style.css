@@ -294,7 +294,7 @@ body {
     background-color: #00ffff30;
 }
 
-.farm .btn2{
+.farm .btn2 {
     width: 250px;
     font-size: 23px;
     border: 2px solid white;
@@ -304,4 +304,59 @@ body {
     background-color: rgba(0, 0, 0, 0.514);
     color: aqua;
     margin-top: 42px;
+}
+
+.main4 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background: url(img/main4.avif);
+    background-size: cover;
+}
+
+.cantainer-main4 {
+    display: flex;
+    padding: 60px 168px;
+    background: #000000c2;
+    height: 100%;
+    width: 100%;
+}
+
+
+.card1 {
+    width: 39%;
+    margin: auto;
+    padding: 0 0 10px 30px;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.card1 img {
+    height: 336px;
+    border: 4px solid white;
+    box-shadow: grey;
+    box-shadow: 2px gray;
+    border-style: double;
+}
+
+.card2 {
+    width: 50%;
+    margin: auto;
+    padding: 0 103px;
+}
+
+.card2 img {
+    height: 336px;
+    width: 328px;
+    border: 4px solid white;
+    box-shadow: grey;
+    box-shadow: 2px gray;
+    border-style: double;
+}
+
+.wizards::after {
+    content: '_';
+    font-size: 71px;
+    position: relative;
+    top: -7px;
+    animation: typing .5s ease infinite;
 }
